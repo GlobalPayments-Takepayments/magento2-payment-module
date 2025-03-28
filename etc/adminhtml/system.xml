@@ -205,7 +205,7 @@
                     </field>
                 </group>
 
-                <include path="GlobalPayments_PaymentGateway::system/digital_wallets.xml"/>
+                <!-- <include path="GlobalPayments_PaymentGateway::system/digital_wallets.xml"/> -->
                 <!-- <include path="GlobalPayments_PaymentGateway::system/paypal.xml"/>
                 <include path="GlobalPayments_PaymentGateway::system/bnpl.xml"/>
                 <include path="GlobalPayments_PaymentGateway::system/open_banking.xml"/> -->

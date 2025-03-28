@@ -3,7 +3,7 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
     <default>
         <payment>
-            <globalpayments_paymentgateway_heartland>
+            <!-- <globalpayments_paymentgateway_heartland>
                 <code>globalpayments_paymentgateway_heartland</code>
                 <model>GlobalPaymentsPaymentGatewayHeartlandFacade</model>
                 <order_status>processing</order_status>
@@ -47,8 +47,8 @@
                 <web_api_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
                 <sandbox_web_api_key backend_model="Magento\Config\Model\Config\Backend\Encrypted" />
                 <is_gateway>1</is_gateway>
-                <!-- <enable_gift_card>1</enable_gift_card>
-                <enable_gift_card_bin>1</enable_gift_card_bin> -->
+                <enable_gift_card>1</enable_gift_card>
+                <enable_gift_card_bin>1</enable_gift_card_bin>
                 <debug>1</debug>
                 <currency>USD</currency>
                 <can_authorize>1</can_authorize>
@@ -63,7 +63,7 @@
                 <can_use_internal>1</can_use_internal>
                 <sandbox_mode>1</sandbox_mode>
                 <allow_card_saving>1</allow_card_saving>
-            </globalpayments_paymentgateway_genius>
+            </globalpayments_paymentgateway_genius> -->
             <globalpayments_paymentgateway_gpApi>
                 <code>globalpayments_paymentgateway_gpApi</code>
                 <model>GlobalPaymentsPaymentGatewayGpApiFacade</model>
@@ -96,7 +96,7 @@
                 <can_use_checkout>1</can_use_checkout>
                 <can_use_internal>1</can_use_internal>
             </globalpayments_paymentgateway_gpApi>
-            <globalpayments_paymentgateway_googlePay>
+            <!-- <globalpayments_paymentgateway_googlePay>
                 <code>globalpayments_paymentgateway_googlePay</code>
                 <model>GlobalPaymentsPaymentGatewayGooglePayFacade</model>
                 <title>Pay with Google Pay</title>
@@ -371,7 +371,7 @@
                 <model>GlobalPaymentsPaymentGatewayTxnApiVaultFacade</model>
                 <title>Stored Cards (Transaction API)</title>
                 <can_use_internal>1</can_use_internal>
-            </globalpayments_paymentgateway_txnapi_vault>
+            </globalpayments_paymentgateway_txnapi_vault> -->
         </payment>
         <globalpayments>
         	<fraudmanagement>
